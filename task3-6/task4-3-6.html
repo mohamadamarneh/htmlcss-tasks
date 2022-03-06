@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes sus1{
+            0%{background-color: rgb(255, 0, 0);}
+            30%{ background-color: rgb(255, 0, 0);}
+            32%{background-color: rgb(255, 0, 0);}
+        }
+        @keyframes sus2{
+            33%{background-color: rgb(255, 251, 0);}
+            34%{ background-color: yellow;}
+            64%{background-color: rgb(251, 255, 0);}
+        }
+        @keyframes sus3{
+            66%{background-color:rgb(60, 255, 0);}
+            67%{ background-color: green;}
+            100%{background-color: rgb(51, 255, 0);}
+        }
+
+        .a{
+            margin:10px ;
+            width: 100px;height: 240px;
+            border-radius: 15px;
+            background-color: rgb(7, 7, 7);
+            
+            
+            
+
+
+        }
+        .b{
+        
+            padding: 10px;
+            margin: 15px;
+            width: 50px;height: 50px;
+            border-radius: 100%;
+            background-color: rgb(109, 109, 109);
+            animation:sus1  6s infinite ease ;
+            animation-timing-function: linear;
+
+        }
+        .c{
+            padding: 10px;
+            margin: 15px;
+            width: 50px;height: 50px;
+            border-radius: 100%;
+            background-color: rgb(109, 109, 109);
+            animation:sus2  6s infinite  ;
+            animation-timing-function: linear;
+
+
+        }
+        .d{
+            
+            padding: 10px;
+            margin: 15px;
+            width: 50px;height: 50px;
+            border-radius: 100%;
+            background-color: rgb(109, 109, 109);
+            animation:sus3  6s infinite ease ; 
+            animation-timing-function: linear;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+    
+</body>
+</html>
